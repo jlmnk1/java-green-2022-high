@@ -2,6 +2,15 @@ package site.metacoding.ex23;
 
 public class StringCollectionEx01 {
     public static void main(String[] args) {
+
+        String s = "안녕";
+        s = s + "안녕";
+        s = s + "안녕";
+        s = s + "안녕";
+        s = s + "안녕";
+        s = s + "안녕";
+
+        // StringBuffer
         StringBuffer sb = new StringBuffer();
         sb.append("http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst?");
         sb.append(
